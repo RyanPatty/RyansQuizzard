@@ -1,0 +1,37 @@
+{
+  "name": "ryans-quiz-maker",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ryan O'Connor",
+  "description": "Your offline-first flashcard and quiz companion for effective learning",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "latest",
+    "@radix-ui/react-progress": "^1.1.1",
+    "@radix-ui/react-radio-group": "latest",
+    "@radix-ui/react-select": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "next": "15.2.4",
+    "react": "^19",
+    "react-dom": "^19",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.3",
+    "postcss": "^8.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

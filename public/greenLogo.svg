@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="200" viewBox="0 0 200 200" width="200" xmlns="http://www.w3.org/2000/svg">
+<!-- Background -->
+
+<!-- Outer Glowing Ring -->
+<circle cx="100" cy="100" fill="none" r="80" stroke="#00C896" stroke-width="3"/>
+<!-- Oxygen Molecular Swirls (Geometric Energy) -->
+<g fill="none" stroke="#00C896" stroke-width="2">
+<ellipse cx="100" cy="100" rx="70" ry="30" transform="rotate(30,100,100)"/>
+<ellipse cx="100" cy="100" rx="70" ry="30" transform="rotate(-30,100,100)"/>
+<ellipse cx="100" cy="100" rx="50" ry="80" transform="rotate(60,100,100)"/>
+<ellipse cx="100" cy="100" rx="50" ry="80" transform="rotate(-60,100,100)"/>
+</g>
+<!-- Central Core (Power Source) -->
+<circle cx="100" cy="100" fill="#00C896" r="10"/>
+<!-- Orbital Particles -->
+<circle cx="160" cy="100" fill="#00C896" r="5"/>
+<circle cx="40" cy="100" fill="#00C896" r="5"/>
+<circle cx="100" cy="160" fill="#00C896" r="5"/>
+<circle cx="100" cy="40" fill="#00C896" r="5"/>
+</svg>

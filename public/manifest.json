@@ -1,0 +1,21 @@
+{
+  "name": "RyansQuizzard - Study harder, learn more",
+  "short_name": "RyansQuizzard",
+  "description": "A web app to help people in their learning journeys",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00C896",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/greenLogo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "en",
+  "scope": "/"
+}

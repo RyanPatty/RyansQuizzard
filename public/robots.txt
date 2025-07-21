@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of main pages
+Allow: /flashcards/
+Allow: /quizzes/
+Allow: /privacy
+Allow: /terms
+
+# Disallow admin or sensitive areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1 
